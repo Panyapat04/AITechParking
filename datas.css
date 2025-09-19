@@ -1,0 +1,73 @@
+/* Styling for the table */
+#driverTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#driverTable th,
+#driverTable td {
+  padding: 12px;
+  text-align: left;
+}
+
+#driverTable th {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+#searchBar {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.deleteCheck {
+  margin-left: 10px;
+}
+
+/* Style for the delete button */
+.deleteBtn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: #de8d95;
+  color: #ffffff;
+}
+
+/* Styling for sorting indicators */
+th.asc::after {
+  content: " ▲";
+}
+
+th.desc::after {
+  content: " ▼";
+}
+/* Style to hide the License ID column initially */
+/* Initial style for License ID column */
+.license-id {
+  display: none; /* Initially hidden */
+}
+
+/* Style for the toggle button */
+.toggle-license {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.toggle-license:hover {
+  text-decoration: none;
+}
+
+/* Style for showing/hiding text */
+.toggle-license {
+  font-size: 14px;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
